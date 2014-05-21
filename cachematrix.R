@@ -1,14 +1,13 @@
 
 
-## The first function, makeCacheMatrix creates  list contains a function to:-
+## The first function, makeCacheMatrix creates a list containing a function to:-
 
 ## set the value of the matrix
 ## get the value of the matrix
 ## set the value of the inverse
 ## get the value of the inverse
-## instead of 'solve' function 'ginv' can be used to find pseudo invers
-## if matrix is non-square.
-## Also 'solve' will not work if matrix is singular.
+## instead of 'solve' function 'ginv' can be used to find pseudo inverse
+## if matrix is non-square  or singular.
 
 makeCacheMatrix <- function(x = matrix()) {
      
